@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Test1(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.testng.multibrowser.MultiBrowserDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.testng.multibrowser.MultiBrowserDemo -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

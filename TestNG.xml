@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleBank">
+	<listeners>
+		<listener class-name="com.testbanking.utilities.Reporting" />
+	</listeners>
+	
+	<test name="TestBank">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testbanking.testCases.TC_LoginTest_001" />
+			<!-- <class name="com.testbanking.testCases.TC_Login_DDT_002" /> -->
+			<class name="com.testbanking.testCases.TC_AddCustomerTest_003" />
+		</classes>
+	</test> <!-- TestBank -->
+</suite> <!-- SampleBank -->
