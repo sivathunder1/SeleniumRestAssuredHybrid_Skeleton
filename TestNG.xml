@@ -8,9 +8,9 @@
 	<test name="TestBank">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.testbanking.testCases.TC_LoginTest_001" />
+			<class name="seleniumSamples.BrokenLinkTest" />
 			<!-- <class name="com.testbanking.testCases.TC_Login_DDT_002" /> -->
-			<class name="com.testbanking.testCases.TC_AddCustomerTest_003" />
+			<!--<class name="com.testbanking.testCases.TC_AddCustomerTest_003" />-->
 		</classes>
 	</test> <!-- TestBank -->
 </suite> <!-- SampleBank -->

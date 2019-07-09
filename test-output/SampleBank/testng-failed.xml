@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [SampleBank]">
+<suite name="Failed suite [SampleBank]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.testbanking.utilities.Reporting"/>
   </listeners>
   <test name="TestBank(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.testbanking.testCases.TC_AddCustomerTest_003">
+      <class name="seleniumSamples.BrokenLinkTest">
         <methods>
-          <include name="setup"/>
-          <include name="addNewCustomer"/>
-          <include name="tearDown"/>
+          <include name="testDropdown"/>
         </methods>
-      </class> <!-- com.testbanking.testCases.TC_AddCustomerTest_003 -->
+      </class> <!-- seleniumSamples.BrokenLinkTest -->
     </classes>
   </test> <!-- TestBank(failed) -->
 </suite> <!-- Failed suite [SampleBank] -->
